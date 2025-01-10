@@ -34,6 +34,3 @@ if __name__ == '__main__':
 
     print(find_by_author('in'))
     print(find_by_author('in'))
-    quotes = Quote.objects().all()
-    print([e.to_json() for e in quotes])
-
